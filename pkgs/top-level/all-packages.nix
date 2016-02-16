@@ -2581,6 +2581,10 @@ let
 
   ostree = callPackage ../tools/misc/ostree { };
 
+  os-prober = callPackage ../tools/misc/os-prober { };
+
+  os-prober-grub = callPackage ../tools/misc/os-prober/os-prober-grub.nix { };
+
   otpw = callPackage ../os-specific/linux/otpw { };
 
   owncloud = callPackage ../servers/owncloud { };
